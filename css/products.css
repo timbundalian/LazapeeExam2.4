@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #eff0f5;
+}
+.products-container{
+    background-color: #eff0f5;
+    padding-top: 80px;
+    padding-bottom: 32px;
+    
+    }
+.pro-container2 h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+
+}
+.pro-container2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;    
+}
+.pro-container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin-top:  50px;
+        padding-top: 10px;
+ 
+}
+.container-box{
+    background: #ffff;
+    margin-left:80px ;
+    margin-right: 80px;
+}
+.labelbutton input{
+    width: 160px;
+}
+.discript p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    text-align: center;
+
+}
+.labelbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.labelbutton button{
+    color: white;
+    background: rgb(18, 87, 214);
+    border-radius: 9px;
+    padding: 5px;
+}
+.labelbutton em{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media  screen and (max-width: 1275px) {
+    
+    .pro-container2 img{
+      height: 250px;
+      width: 250px;
+    }
+    .container-box{
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        text-align: center;
+        font-family:  Helvetica, Tahoma, Arial, Sans-serif;
+    }
+    p{
+        text-align: center;
+        font-family: Helvetica, Tahoma, Arial, Sans-serif;
+    }
+  }

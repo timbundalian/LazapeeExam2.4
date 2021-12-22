@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    body{
+        width: 100%;
+        background: #fafafa;
+        position: relative;
+    }
+    .container{
+    background-color: #eff0f5;
+    padding-bottom: 140px;
+    flex-wrap: wrap;
+    }
+    .container h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-top: 55px;
+        font-family: Helvetica, Tahoma, Arial, Sans-serif;
+    }
+    .ItemsPrice{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: none;
+        text-decoration: none;
+        
+    }
+    .contaner-box{
+        background: #ffff;
+        margin-left:80px ;
+        margin-right:80px ;
+
+    }
+    .ItemsPrice img{
+        height: 190px;
+        width: 200px;
+       padding-top: 25px;
+       margin-right: 40px;
+    }
+    .n1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .n1 a{
+        text-decoration: none;
+        margin-right: 40px;
+    }
+    .n2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .n2 a{
+        text-decoration: none;
+        margin-right: 40px;
+    }
+    .n3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .n3 a{
+        text-decoration: none;
+        margin-right: 40px;
+    }
+    a{
+        color: black;
+    }
+    @media  screen and (max-width: 1275px) {
+        .ItemsPrice img{
+            height: 250px;
+            width: 250px;
+            margin-right: 10px;
+        }
+        .container{
+            padding-top: 40px;
+        }
+        .contaner-box{
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+    }
+    
+
+    

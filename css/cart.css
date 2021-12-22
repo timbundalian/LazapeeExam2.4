@@ -1,0 +1,174 @@
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #eff0f5;
+  }
+  
+  .cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .cart-table {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1rem 1rem 1rem 1.5rem;
+    margin-bottom: 90px;
+  }
+  
+  .cart h1 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  th {
+    padding: 10px 0;
+    border-bottom: 2px solid #eff0f5;
+  }
+  
+  td {
+    padding: 10px 0rem 1rem 1rem;
+  }
+  
+  #cart-table-row-data1 {
+    position: relative;
+    bottom: 2px;
+  }
+  
+  #cart-table-row-data2 {
+    position: relative;
+    bottom: 4px;
+  }
+  
+  #cart-table-row-data3 {
+    position: relative;
+    bottom: 6px;
+  }
+  
+  #cart-table-row-data4 {
+    position: relative;
+    bottom: 8px;
+  }
+  
+  #cart-table-row-data5 {
+    position: relative;
+    bottom: 10px;
+  }
+  
+  #cart-table-row-data1:hover {
+    background: #ececec ;
+  }
+  
+  #cart-table-row-data2:hover {
+    background: #ececec ;
+  }
+  
+  #cart-table-row-data3:hover {
+    background: #ececec ;
+  }
+  
+  #cart-table-row-data4:hover {
+    background: #ececec ;
+  }
+  
+  #cart-table-row-data5:hover {
+    background: #ececec ;
+  }
+  
+  #placed {
+    position: relative;
+    right: 2px;
+  }
+  
+  
+  #items {
+    position: relative;
+    right: 4px;
+  }
+  
+  #quantity {
+    position: relative;
+    right: 6px;
+  }
+  
+  #total {
+    position: relative;
+    right: 8px;
+  }
+  
+  #total2 {
+    position: relative;
+    right: 10px;
+  }
+  
+  #table-link {
+    position: relative;
+    right: 10px;
+  }
+  
+  #table-link a {
+    text-decoration: none;
+    color: #252f7b;
+  }
+  
+  #table-link a:hover {
+    color: #f95031;
+  }
+  
+  #shipping2 {
+    position: relative;
+    right: 2px;
+  }
+  
+  #shipping3 {
+    position: relative;
+    right: 4px;
+  }
+  
+  #shipping4 {
+    position: relative;
+    right: 6px;
+    color: transparent;
+  }
+  
+  
+  @media screen and (max-width: 780px) {
+    #placed {
+      display: none;
+    }
+  
+    #shipping2 {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .order {
+      display: none;
+    }
+  
+    #shipping4 {
+      color: #000;
+    }
+  
+    .shipping5 {
+      color: transparent;
+    }
+  }
+  
+
+@media  screen and (max-width: 1275px){
+.cart-container{
+    padding-top: 40px;
+}
+.cart-table{
+    width: 10px;
+}
+}
+

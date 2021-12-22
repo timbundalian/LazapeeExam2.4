@@ -1,0 +1,161 @@
+.edit-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #eff0f5;
+  }
+  
+  .edit-account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background: #eff0f5;
+  }
+  
+  .edit-account-header {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .edit-account-table {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 80px;
+  }
+  
+  .edit-account-input {
+    width: 100%;
+    height: 30px;
+    padding-left: 0.3rem;
+  }
+  
+  .edit-account-btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    background: #28a745;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  .row2 {
+    position: relative;
+    bottom: 2px;
+  }
+  
+  .row3 {
+    position: relative;
+    bottom: 4px;
+  }
+  
+  .row4 {
+    position: relative;
+    bottom: 6px;
+  }
+  
+  .row5 {
+    position: relative;
+    bottom: 8px;
+  }
+  
+  .row6 {
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .row1:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .row2:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .row3:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .row4:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .row5:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .row6:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .edit-account-row {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    height: 55px;
+  }
+  
+  .edit-account-data {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .edit-account-row input{
+    position: relative;
+    right: 15px;
+  }
+  
+  .account-row1:hover {
+    background: #ececec;
+  }
+  
+  .account-row2:hover {
+    background: #ececec;
+  }
+  
+  .account-row3:hover {
+    background: #ececec;
+  }
+  
+  .account-row4:hover {
+    background: #ececec;
+  }
+  
+  .account-row5:hover {
+    background: #ececec;
+  }
+  
+  .account-row6:hover {
+    background: #ececec;
+  }
+  
+  .account-row3 {
+    padding-top: 13px;
+  }
+  
+  .account-row4 {
+    padding-top: 16px;
+  }
+  
+  .account-row5 {
+    padding-top: 20px;
+  }
+  
+  .account-row6 {
+    padding-top: 25px;
+  }

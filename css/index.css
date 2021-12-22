@@ -1,0 +1,92 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    width: 100%;
+    background: #eff0f5;
+    position: relative;
+}
+.container{
+padding-bottom: 140px;
+flex-wrap: wrap;
+}
+.container-box{
+    background:#ffff;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    font-style:Helvetica,Tahoma,Arial,Sans-serif;
+}
+.ItemsPrice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: none;
+    
+}
+.ItemsPrice img{
+    height: 190px;
+    width: 200px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    
+}
+.groceries{
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+}
+.toys{
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+}
+.fashion{
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+}
+strong{
+    text-decoration: none;
+    color: #424242;
+}
+a{
+    text-decoration: none;
+    color: #424242;
+}
+h1{
+    font-style: Helvetica;
+}
+
+/* media */
+
+@media  screen and (max-width: 1275px) {
+.ItemsPrice img{
+    height: 250px;
+    width: 250px;
+}
+.container{
+    padding-top: 50px;
+}
+.container-box{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+}
+
